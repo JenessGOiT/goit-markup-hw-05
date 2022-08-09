@@ -166,6 +166,7 @@ img {
     color: var(--main-text-color);
     display: flex;
     align-items: center;
+    transition: color var(--timing-function) var(--duration);
 }
 
 .nav-contacts:hover,
@@ -230,7 +231,7 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 0;
-    transition: back-groundcolor var(--timing-function) var(--duration), box-shadow var(--timing-function) var(--duration);
+    transition: background-color var(--timing-function) var(--duration), box-shadow var(--timing-function) var(--duration);
 }
 
 .hero-button:hover,
@@ -449,6 +450,7 @@ img {
     height: 44px;
     border-radius: 50%;
     color: var(--back-soc-color);
+    transition: background-color var(--timing-function) var(--duration), color var(--timing-function) var(--duration);
 }
 
 .team-soc-icon {
@@ -494,6 +496,7 @@ img {
     justify-content: center;
     align-items: center;
     color: var(--back-soc-color);
+    transition: border-color var(--timing-function) var(--duration), color var(--timing-function) var(--duration);
 }
 
 .clients-icon {
@@ -546,6 +549,7 @@ img {
     font-size: 14px;
     line-height: 1.17;
     color: #fff;
+    transition: color var(--timing-function) var(--duration);
 }
 
 .contacts-down-mail {
@@ -554,6 +558,7 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition: color var(--timing-function) var(--duration);
 }
 
 .contacts-down-tel {
@@ -562,6 +567,7 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition: color var(--timing-function) var(--duration);
 }
 
 .contacts-down:hover,
@@ -601,6 +607,7 @@ img {
     border-radius: 50%;
     color: var(--main-sections-color);
     background: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--timing-function) var(--duration), color var(--timing-function) var(--duration);
 }
 
 .footer-soc-icon {
@@ -640,6 +647,7 @@ img {
     color: var(--title-text-color);
     border: 0;
     border-radius: 4px;
+    transition: background-color var(--timing-function) var(--duration), color var(--timing-function) var(--duration), box-shadow var(--timing-function) var(--duration);
 }
 
 .portfolio-nav-btn:hover,
@@ -663,6 +671,7 @@ img {
 
 .team-work-a {
     display: block;
+    transition: box-shadow var(--timing-function) var(--duration);
 }
 
 .team-work-a:hover,
